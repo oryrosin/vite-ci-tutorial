@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -18,11 +17,12 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
 		This is a CI tutorial with node
+          <br/>
+          <a href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions" target="_blank">
+              learning about github actions
+          </a>
               </div>
 
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
   )
 }
